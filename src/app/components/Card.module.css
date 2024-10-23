@@ -1,0 +1,20 @@
+.cartao {
+  background-color: var(--card-background);
+  padding: var(--padding);
+  border-radius: var(--button-radius);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.14);
+  margin-bottom: 14px;
+  margin-right: 8px;
+  width: 250px;
+}
+
+.cartaoTitle {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .cartao {
+    width: 100%;
+  }
+}

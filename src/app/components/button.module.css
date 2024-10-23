@@ -1,0 +1,14 @@
+.botao {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--button-radius);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao:hover {
+    background-color: var(--secondary-color);
+  }
+  
