@@ -26,19 +26,22 @@ cd nome-do-projeto
 npm run dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) para ver o resultado no seu brownser.
-
 <h2 id="estrutura">Estrutura inicial</h2>
 
 <pre>
+Estrutura inicial
 ├── app/ 
-│   ├── fonts/ #Armazena as fontes customizadas 
-│   ├── favicon.ico #Ícone que aparece na aba do navegador
-│   ├── globals.css
-│   ├── layout.js
-│   └── page.js     
-├── node_modules/   
-├── public/      
+/components
+  ├── Card.js
+  ├── Card.module.css
+  ├── Button.jsx
+  └── Button.module.css    
+/fonts
+  └── global.css
+/layout.js
+/page.js
+/public
+  └── favicon.ico    
 ├── .eslintrc.json
 ├── .gitignore
 ├── jsconfig.json
@@ -216,7 +219,10 @@ export default function Botao({ palavra, onClick }) {
 
 ### 3. **Estilos Globais (global.css)**
 
-Define variáveis CSS globais e estilos para o corpo da aplicação, incluindo suporte para temas claros e escuros.
+3. Estilos Globais (global.css)
+
+No arquivo global.css, você define variáveis CSS que podem ser usadas em toda a aplicação Next.js, garantindo consistência visual e facilitando a manutenção. Além disso, ele oferece suporte a temas claros e escuros automaticamente, utilizando a mídia query prefers-color-scheme, o que permite a adaptação automática ao tema preferido do usuário.
+
 
 ```css
 :root {
@@ -375,11 +381,39 @@ Após importar os componentes, o módulo CSS da página e o Head (para manipular
 }
 ```
 
-## Autores:
-
-- Ana Julia Blande Silva 
-- Gabriel Aboboreira 
-- Naomi 
+### Execução na tela:
 
 
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="img.dark.jpeg">
+
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src=“img.light.jpeg">
+
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="img.media.jpeg">
+
+### Autores:
+
+<h2 id="autores"> Autores </h2>
+
+<h3>Naomi Arakaki</h3>
+
+
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/naomi-suguimoto-57436b290/)](https://www.linkedin.com/in/naomi-suguimoto-57436b290)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:arakakinaomi228@gmail.com)](mailto:arakakinaomi228@gmail.com)
+
+
+<h3>Gabriel Aboboreira</h3>
+
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-aboboreira/)](https://www.linkedin.com/in/gabriel-aboboreira/)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:masterkillbr007@gmail.com)](mailto:masterkillbr007@gmail.com)
+
+
+<h3>Ana Julia Blande</h3>
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/ana-julia-blande-silva-348612286/)](https://www.linkedin.com/in/ana-julia-blande-silva-348612286/)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:anajblande04@gmail.com)](mailto:anajblande04@gmail.com)
 
