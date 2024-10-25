@@ -1,20 +1,20 @@
 # POC 5: React com Next.js
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+   * [](#)
+   * [](#)
+
 <h2 id="introdução">Introdução</h2>
 Bem-vindo ao repositório POC 5: React com Next.js🎉 Este é um recurso gratuito que ensina o passo a passo para criar um projeto React usando o bootstraping do Next.js. 
-A biblioteca para desenvolvimento React permite construir páginas web por meio de componentes reutilizáveis, o que diminui consideravelmente o tamanho do código em projetos maiores, o que facilita sua organização e manutenção. Além disso, com a utilização dos estados (abordaremos mais para frente) é possível atualizar somente esses componentes ao interagirem com o usuário, sem carregar toda a página, o que otimiza a performance. 
-
-
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+A biblioteca para desenvolvimento React permite construir páginas web por meio de componentes reutilizáveis, o que diminui consideravelmente o tamanho do código em projetos maiores, o que facilita sua organização e manutenção. Além disso, com a utilização dos estados (abordaremos em uma próxima POC) é possível atualizar somente esses componentes ao interagirem com o usuário, sem carregar toda a página, o que otimiza a performance. 
 
 Na sua POC você deve explicar o funcionamento dos seguintes conceitos de REACT, usando Next.js:
 
 Estrutura de Projeto NextJS 14 ou superior
 Criação de componentes simples (sem estado)
 Estilo CSS (global e módulo). 
-   * [](#)
-   * [](#)
+
     
 
 Esse é um projeto [Next.js](https://nextjs.org) iniciado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), na versão NextJS 15. 
@@ -99,4 +99,7 @@ Arquivo Markdown que contém informações sobre o projeto, como instruções de
 Arquivo de configuração do Tailwind CSS. É onde você pode personalizar temas, adicionar plugins e estender utilitários de estilo.
 
 
+<h2 id="componentes">Criando componentes</h2>
 
+Componentes são elementos reutilizáveis que compõem uma interface.
+Cada componente React é um arquivo .jsx (JavaScript extended) (ou .tsx para TypeScript). Como uma boa prática, organizamos todos os componentes dentro de uma pasta /components, no diretório /app. 
