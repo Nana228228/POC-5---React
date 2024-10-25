@@ -174,17 +174,24 @@ Componente Botao: O botão Botao é renderizado com um onClick que dispara um al
 A estrutura do projeto é organizada da seguinte maneira:
 
 ```
-/components
-  ├── Card.js
-  ├── Card.module.css
-  ├── Button.jsx
-  └── Button.module.css
-/fonts
-  └── global.css
-/layout.js
-/page.js
-/public
-  └── favicon.ico
+Estrutura inicial
+├── app/ 
+│   ├── fonts/ #Armazena as fontes customizadas 
+│   ├── favicon.ico #Ícone que aparece na aba do navegador
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js     
+├── node_modules/   
+├── public/      
+├── .eslintrc.json
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+└── tailwind.config.js
 ```
 
 ## Descrição dos Componentes
