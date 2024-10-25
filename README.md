@@ -15,6 +15,12 @@ Estrutura de Projeto NextJS 14 ou superior
 Criação de componentes simples (sem estado)
 Estilo CSS (global e módulo). 
 
+<h2 id="tech"> Tecnologias Utilizadas</h2>
+
+- **Next.js**: Framework React para construção de aplicações web.
+- **CSS Modules**: Para escopo local de estilos.
+- **JavaScript**: Linguagem de programação principal.
+
 <h2 id="estrutura">Estrutura inicial</h2>
 
 <pre>
@@ -37,7 +43,7 @@ Estilo CSS (global e módulo).
 └── tailwind.config.js
 </pre>
 
-<h3>/app: </h3>
+<h3> /app </h3>
 Este diretório é uma novidade em versões mais recentes de Next.js, parte da introdução do App Router. Ele contém arquivos como page.js, layout.js, e outras subpastas, como /fonts, que lidam com componentes de página e layouts.
 <h4>page.js: </h4> Define a página principal do projeto (ex.: página inicial). Cada diretório no /app que contém um arquivo page.js mapeia para uma rota correspondente.
 <h4>layout.js:</h4> Define o layout que será utilizado em uma página ou conjunto de páginas. Isso permite que você defina layouts que sejam reutilizados entre diferentes páginas.
