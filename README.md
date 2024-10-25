@@ -292,7 +292,9 @@ body {
 
 ### 4. **Layout (layout.js)**
 
-Define o layout principal da aplicação, incluindo as fontes personalizadas.
+Define o layout principal da aplicação, incluindo as fontes personalizadas. Esse arquivo define um layout raiz (RootLayout) que envolve todas as páginas da aplicação. É como um contêiner global onde você define aspectos comuns (como fontes e estilos), e todas as páginas renderizadas ficarão dentro dele. O layout inclui fontes personalizadas, um arquivo CSS global e as metadatas da aplicação, como título e descrição.
+
+Explicação Detalhada
 
 ```javascript
 import localFont from "next/font/local";
