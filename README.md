@@ -15,27 +15,6 @@ Estrutura de Projeto NextJS 14 ou superior
 Criação de componentes simples (sem estado)
 Estilo CSS (global e módulo). 
 
-    
-
-Esse é um projeto [Next.js](https://nextjs.org) iniciado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), na versão NextJS 15. 
-
-
-<h2>Começando o projeto</h2>
-
-Para criar um projeto usando o framework Next.js, digite no terminal: 
-```bash
-nmx create-next-app@latest nome-do-projeto
-```
-
-Para entrar no diretório do projeto e iniciar o servidor de desenvolvimento, digite:
-
-```bash
-cd nome-do-projeto
-npm run dev
-```
-
-Abra [http://localhost:3000](http://localhost:3000) para ver o resultado no seu brownser.
-
 <h2 id="estrutura">Estrutura inicial</h2>
 
 <pre>
