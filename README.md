@@ -393,7 +393,7 @@ export default function Home() {
 }
 ```
 
-##Resultado visual
+### Resultado visual
 
 O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir:
 
