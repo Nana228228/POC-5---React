@@ -103,3 +103,40 @@ Arquivo de configuração do Tailwind CSS. É onde você pode personalizar temas
 
 Componentes são elementos reutilizáveis que compõem uma interface.
 Cada componente React é um arquivo .jsx (JavaScript extended) (ou .tsx para TypeScript). Como uma boa prática, organizamos todos os componentes dentro de uma pasta /components, no diretório /app. 
+
+<h3>Card.jsx</h3>
+import styles from './Card.module.css';:
+
+Importa um arquivo de CSS modular chamado Card.module.css, que contém os estilos usados neste componente. O CSS modular permite que os estilos sejam aplicados de forma local e isolada, evitando colisões de classes globais em toda a aplicação.
+Por exemplo, a classe cartao definida no arquivo CSS modular será acessada através de styles.cartao dentro do JSX, garantindo que esses estilos sejam exclusivos para esse componente.
+export default function Cartao({ title, children }) {:
+
+Esta linha define o componente funcional Cartao, exportando-o como padrão para ser usado em outras partes da aplicação.
+O componente recebe duas propriedades (ou props):
+title: o título que será exibido no cartão.
+children: o conteúdo (ou filhos) que será renderizado dentro do cartão. Essa prop permite que o componente seja flexível, renderizando qualquer elemento ou conteúdo passado entre as tags <Cartao> ao utilizá-lo.
+<div className={styles.cartao}>:
+
+Aqui começa o JSX que será retornado pelo componente. Um div com a classe cartao (do CSS modular) é usada como contêiner do cartão.
+O uso de {styles.cartao} garante que o estilo seja aplicado diretamente da importação do CSS modular, mantendo o estilo específico e encapsulado.
+<h2 className={styles.cartaoTitle}>{title}</h2>:
+
+Renderiza um título (h2) com a classe cartaoTitle (também do CSS modular) e insere o valor da prop title dentro da tag.
+Assim, o título dinâmico pode ser passado como propriedade ao componente e será exibido no cartão.
+<div>{children}</div>:
+
+Renderiza os filhos do componente dentro de uma div. Os children podem ser qualquer conteúdo que o desenvolvedor envolva dentro das tags <Cartao>...</Cartao>, como texto, imagens, botões, etc.
+Fechamento do Componente:
+
+O componente é fechado, retornando o layout de um cartão simples com título e conteúdo flexível.
+
+<h3>button.jsx</h3>
+Aqui, estamos declarando e exportando uma função chamada Botao, que é o nosso componente funcional. Esse componente recebe dois props:
+
+palavra: Será o texto que será exibido dentro do botão.
+onClick: É uma função que será executada quando o botão for clicado.
+O elemento button renderiza um botão HTML.
+A className={styles.botao} atribui ao botão uma classe CSS que foi definida no arquivo button.module.css. O styles.botao é uma forma de referenciar a classe CSS botao no arquivo CSS importado.
+O onClick={onClick} atribui ao botão uma função que será executada quando ele for clicado. Essa função é passada como uma prop.
+Dentro das tags <button></button>, o {palavra} é o conteúdo textual do botão, que foi passado como uma prop ao componente.
+
