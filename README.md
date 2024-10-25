@@ -429,22 +429,6 @@ export default function Home() {
 - **CSS Modules**: Para escopo local de estilos.
 - **JavaScript**: Linguagem de programação principal.
 
-## Melhores Práticas
-
-- **Componentização**: Utilize componentes reutilizáveis para manter o código limpo e organizado.
-- **Responsividade**: Estilos responsivos são implementados para garantir uma boa experiência em diferentes dispositivos.
-- **Temas**: Suporte a temas claros e escuros para melhorar a acessibilidade e a experiência do usuário.
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests. Para contribuir, siga estas etapas:
-
-1. Fork este repositório.
-2. Crie uma nova branch (`git checkout -b feature/nome-da-sua-feature`).
-3. Faça suas alterações e faça commit (`git commit -m 'Adiciona uma nova feature'`).
-4. Envie sua branch (`git push origin feature/nome-da-sua-feature`).
-5. Abra um Pull Request.
-
 ## Licença
 
 Este projeto está licenciado sob a **MIT License**. Veja o arquivo `LICENSE` para mais detalhes.
