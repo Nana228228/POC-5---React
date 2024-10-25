@@ -395,11 +395,11 @@ export default function Home() {
 
 O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir:
 
-<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="raposa.jpg">
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="img.dark.jpeg">
 
-<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="raposa.jpg">
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="img.light.jpeg">
 
-<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="raposa.jpg">
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="img.media.jpeg">
 
 ## Tecnologias Utilizadas
 
