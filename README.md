@@ -258,7 +258,7 @@ export default function Botao({ palavra, onClick }) {
 
 ### 3. **Estilos Globais (global.css)**
 
-Define variáveis CSS globais e estilos para o corpo da aplicação, incluindo suporte para temas claros e escuros.
+Define variáveis CSS globais e estilos para o corpo da aplicação, incluindo suporte para temas claros e escuros. O arquivo global.css funciona como um arquivo de estilos globais que define regras de CSS que serão aplicadas em toda a aplicação. Em um projeto Next.js (ou qualquer projeto web), os estilos globais são aqueles que afetam todos os componentes e páginas da aplicação, a menos que sejam sobrescritos por estilos específicos.
 
 ```css
 :root {
