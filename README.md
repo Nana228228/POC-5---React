@@ -391,6 +391,16 @@ export default function Home() {
 }
 ```
 
+##Resultado visual
+
+O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir:
+
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="raposa.jpg">
+
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="raposa.jpg">
+
+<img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="raposa.jpg">
+
 ## Tecnologias Utilizadas
 
 - **Next.js**: Framework React para construção de aplicações web.
