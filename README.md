@@ -384,9 +384,9 @@ Após importar os componentes, o módulo CSS da página e o Head (para manipular
 ### Execução na tela:
 
 
-<img style="border-radius:50%; width:300px; height:430px; display: flex; align-items: center;" src="img.dark.jpeg">
-<img style="border-radius:50%; width:300px; height:430px; display: flex; align-items: center;" src="img.light.jpeg">
-<img style="border-radius:50%; width:300px; height:430px; display: flex; align-items: center;" src="img.media.jpeg">
+<img style="border-radius:50%; width:300px; height:630px; display: flex; align-items: center;" src="img.dark.jpeg">
+<img style="border-radius:50%; width:300px; height:630px; display: flex; align-items: center;" src="img.light.jpeg">
+<img style="border-radius:50%; width:300px; height:630px; display: flex; align-items: center;" src="img.media.jpeg">
 
 
 ### Autores:
