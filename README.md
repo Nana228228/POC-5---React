@@ -2,24 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-   * [](#)
-   * [](#)
+   * [Introdução](#introducao)
+   * [Começando o projeto ](#comecando)
+   * [Estrutura inicial ](#estrutura)
+   * [ ] (#)
 
-<h2 id="introdução">Introdução</h2>
+<h2 id="introducao">Introdução</h2>
 Bem-vindo ao repositório POC 5: React com Next.js🎉 Este é um recurso gratuito que ensina o passo a passo para criar um projeto React usando o bootstraping do Next.js. 
 A biblioteca para desenvolvimento React permite construir páginas web por meio de componentes reutilizáveis, o que diminui consideravelmente o tamanho do código em projetos maiores, o que facilita sua organização e manutenção. Além disso, com a utilização dos estados (abordaremos em uma próxima POC) é possível atualizar somente esses componentes ao interagirem com o usuário, sem carregar toda a página, o que otimiza a performance. 
 
-Na sua POC você deve explicar o funcionamento dos seguintes conceitos de REACT, usando Next.js:
-
-Estrutura de Projeto NextJS 14 ou superior
-Criação de componentes simples (sem estado)
-Estilo CSS (global e módulo). 
-
-<h2 id="tec"> Tecnologias Utilizadas</h2>
-
-- **Next.js**: Framework React para construção de aplicações web.
-- **CSS Modules**: Para escopo local de estilos.
-- **JavaScript**: Linguagem de programação principal.
 
 <h2 id="comecando">Começando o projeto</h2>
 
@@ -59,44 +50,44 @@ Abra [http://localhost:3000](http://localhost:3000) para ver o resultado no seu 
 └── tailwind.config.js
 </pre>
 
-<h3>/app: </h3>
+###`/app:`
 Este diretório é uma novidade em versões mais recentes de Next.js, parte da introdução do App Router. Ele contém arquivos como page.js, layout.js, e outras subpastas, como /fonts, que lidam com componentes de página e layouts.
-<h4>page.js: </h4> Define a página principal do projeto (ex.: página inicial). Cada diretório no /app que contém um arquivo page.js mapeia para uma rota correspondente.
-<h4>layout.js:</h4> Define o layout que será utilizado em uma página ou conjunto de páginas. Isso permite que você defina layouts que sejam reutilizados entre diferentes páginas.
-<h4>/fonts:</h4> Diretório onde as fontes customizadas podem ser armazenadas.
-<h4>favicon.ico: </h4>Ícone que aparece na aba do navegador. 
+`page.js`: Define a página principal do projeto (ex.: página inicial). Cada diretório no /app que contém um arquivo page.js mapeia para uma rota correspondente.
+`layout.js`:</h4> Define o layout que será utilizado em uma página ou conjunto de páginas. Isso permite que você defina layouts que sejam reutilizados entre diferentes páginas.
+`/fonts`: Diretório onde as fontes customizadas podem ser armazenadas.
+`favicon.ico`:Ícone que aparece na aba do navegador. 
 
-<h3>/node_modules:</h3>
+###`/node_modules`:
 Contém todas as dependências do projeto gerenciadas pelo Node.js e listadas no package.json. 
 
-<h3>/public: </h3>
+###`/public`: </h3>
 Armazena arquivos estáticos que podem ser diretamente acessados via URL no navegador.
 file.svg, globe.svg, next.svg, vercel.svg, window.svg: Imagens SVG que podem ser usadas diretamente na aplicação.
 
 
 <h3> Outros Arquivos </h3>
 
-<h4>.eslintrc.json:</h4>Arquivo de configuração para o ESLint, uma ferramenta de análise estática para encontrar problemas no código JavaScript.
+####`.eslintrc.json`:Arquivo de configuração para o ESLint, uma ferramenta de análise estática para encontrar problemas no código JavaScript.
 
-<h4>.gitignore:</h4>Lista de arquivos e diretórios que devem ser ignorados pelo Git, como /node_modules, arquivos de build, etc.
+####`.gitignore`:Lista de arquivos e diretórios que devem ser ignorados pelo Git, como /node_modules, arquivos de build, etc.
  
-<h4>jsconfig.json:</h4>
+####`jsconfig.json`:
 
 Arquivo de configuração para facilitar a importação de módulos JavaScript. Ele define caminhos e opções para ajudar com auto-completar e resolver módulos.
-<h4>next.config.mjs:</h4>
+####`next.config.mjs:</h4>
 
 Arquivo de configuração do Next.js. Ele permite a personalização de vários comportamentos da aplicação, como rotas, otimização de imagens, etc.
-<h4>package-lock.json e package.json:</h4>
+####`package-lock.json` e package.json:</h4>
 
-package.json: Contém as dependências do projeto, scripts de build, scripts de desenvolvimento, e metadados do projeto (nome, versão, etc.).
-package-lock.json: Garante que as dependências instaladas permaneçam consistentes em diferentes máquinas.
-<h4>postcss.config.mjs:</h4>
+####`package.json`: Contém as dependências do projeto, scripts de build, scripts de desenvolvimento, e metadados do projeto (nome, versão, etc.).
+####`package-lock.json`: Garante que as dependências instaladas permaneçam consistentes em diferentes máquinas.
+####`postcss.config.mjs`:</h4>
 
 Arquivo de configuração do PostCSS, uma ferramenta que processa CSS. Ele geralmente é usado em conjunto com o Tailwind CSS.
-<h4>README.md:</h4>
+####`README.md`:</h4>
 
 Arquivo Markdown que contém informações sobre o projeto, como instruções de instalação e uso.
-<h4>tailwind.config.js: </h4>
+####`tailwind.config.js`: </h4>
 Arquivo de configuração do Tailwind CSS. É onde você pode personalizar temas, adicionar plugins e estender utilitários de estilo.
 
 
@@ -260,11 +251,14 @@ body {
 ### 4. **Layout (layout.js)**
 
 Define o layout principal da aplicação, incluindo as fontes personalizadas.
+O children da função principal representa o conteúdo que será renderizado dentro deste layout em cada página específica.
 
 ```javascript
-import localFont from "next/font/local";
-import "./global.css";
+import localFont from "next/font/local"; //Importação de fontes locais 
+import "./global.css"; //Importação de CSS global
 
+
+//Definição das fontes GeistSans e GeistMono
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -276,14 +270,19 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+//exportação de metadados (título da página e descrição)
+//otimiza o SEO (Search Engine Optimization) e a aparência do site quando compartilhado (e.g.em redes sociais)
 export const metadata = {
   title: "Create Next App",
   description: "Generated by create next app",
 };
 
+//Este é o componente de layout principal que envolve todas as páginas do projeto
+//define a estrutura HTML básica, incluindo a tag <html> e a tag <body>
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
+    //as variáveis de fonte definidas anteriormente (geistSans.variable e geistMono.variable) são aplicadas como classes CSS
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
