@@ -176,13 +176,17 @@ A estrutura do projeto é organizada da seguinte maneira:
 ```
 Estrutura inicial
 ├── app/ 
-│   ├── fonts/ #Armazena as fontes customizadas 
-│   ├── favicon.ico #Ícone que aparece na aba do navegador
-│   ├── globals.css
-│   ├── layout.js
-│   └── page.js     
-├── node_modules/   
-├── public/      
+/components
+  ├── Card.js
+  ├── Card.module.css
+  ├── Button.jsx
+  └── Button.module.css    
+/fonts
+  └── global.css
+/layout.js
+/page.js
+/public
+  └── favicon.ico    
 ├── .eslintrc.json
 ├── .gitignore
 ├── jsconfig.json
@@ -192,6 +196,7 @@ Estrutura inicial
 ├── postcss.config.mjs
 ├── README.md
 └── tailwind.config.js
+
 ```
 
 ## Descrição dos Componentes
