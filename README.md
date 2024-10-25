@@ -449,8 +449,11 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 Este projeto está licenciado sob a **MIT License**. Veja o arquivo `LICENSE` para mais detalhes.
 
-## Contato
+## Autores:
 
-Para perguntas ou comentários, entre em contato com [Seu Nome](mailto:seuemail@example.com).
+- Ana Julia Blande Silva 
+- Gabriel Aboboreira 
+- Naomi 
+
 
 
