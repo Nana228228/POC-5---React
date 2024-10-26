@@ -58,44 +58,44 @@ Estrutura inicial
 └── tailwind.config.js
 </pre>
 
-###`/app:`
+### `/app:`
 Este diretório é uma novidade em versões mais recentes de Next.js, parte da introdução do App Router. Ele contém arquivos como page.js, layout.js, e outras subpastas, como /fonts, que lidam com componentes de página e layouts.
-`page.js`: Define a página principal do projeto (ex.: página inicial). Cada diretório no /app que contém um arquivo page.js mapeia para uma rota correspondente.
-`layout.js`:</h4> Define o layout que será utilizado em uma página ou conjunto de páginas. Isso permite que você defina layouts que sejam reutilizados entre diferentes páginas.
-`/fonts`: Diretório onde as fontes customizadas podem ser armazenadas.
-`favicon.ico`:Ícone que aparece na aba do navegador. 
+`page.js`:  Define a página principal do projeto (ex.: página inicial). Cada diretório no /app que contém um arquivo page.js mapeia para uma rota correspondente.
+`layout.js`: Define o layout que será utilizado em uma página ou conjunto de páginas. Isso permite que você defina layouts que sejam reutilizados entre diferentes páginas.
+`/fonts`:  Diretório onde as fontes customizadas podem ser armazenadas.
+`favicon.ico`:  Ícone que aparece na aba do navegador. 
 
-###`/node_modules`:
+### `/node_modules`:
 Contém todas as dependências do projeto gerenciadas pelo Node.js e listadas no package.json. 
 
-###`/public`: </h3>
+### `/public`: </h3>
 Armazena arquivos estáticos que podem ser diretamente acessados via URL no navegador.
 file.svg, globe.svg, next.svg, vercel.svg, window.svg: Imagens SVG que podem ser usadas diretamente na aplicação.
 
 
 <h3> Outros Arquivos </h3>
 
-####`.eslintrc.json`:Arquivo de configuração para o ESLint, uma ferramenta de análise estática para encontrar problemas no código JavaScript.
+#### `.eslintrc.json`:Arquivo de configuração para o ESLint, uma ferramenta de análise estática para encontrar problemas no código JavaScript.
 
-####`.gitignore`:Lista de arquivos e diretórios que devem ser ignorados pelo Git, como /node_modules, arquivos de build, etc.
+#### `.gitignore`:Lista de arquivos e diretórios que devem ser ignorados pelo Git, como /node_modules, arquivos de build, etc.
  
-####`jsconfig.json`:
+#### `jsconfig.json`:
 
 Arquivo de configuração para facilitar a importação de módulos JavaScript. Ele define caminhos e opções para ajudar com auto-completar e resolver módulos.
 ####`next.config.mjs:</h4>
 
 Arquivo de configuração do Next.js. Ele permite a personalização de vários comportamentos da aplicação, como rotas, otimização de imagens, etc.
-####`package-lock.json` e package.json:</h4>
+#### `package-lock.json` e package.json:</h4>
 
-####`package.json`: Contém as dependências do projeto, scripts de build, scripts de desenvolvimento, e metadados do projeto (nome, versão, etc.).
-####`package-lock.json`: Garante que as dependências instaladas permaneçam consistentes em diferentes máquinas.
-####`postcss.config.mjs`:</h4>
+#### `package.json`: Contém as dependências do projeto, scripts de build, scripts de desenvolvimento, e metadados do projeto (nome, versão, etc.).
+#### `package-lock.json`: Garante que as dependências instaladas permaneçam consistentes em diferentes máquinas.
+#### `postcss.config.mjs`:
 
 Arquivo de configuração do PostCSS, uma ferramenta que processa CSS. Ele geralmente é usado em conjunto com o Tailwind CSS.
-####`README.md`:</h4>
+#### `README.md`:
 
 Arquivo Markdown que contém informações sobre o projeto, como instruções de instalação e uso.
-####`tailwind.config.js`: </h4>
+#### `tailwind.config.js`: 
 Arquivo de configuração do Tailwind CSS. É onde você pode personalizar temas, adicionar plugins e estender utilitários de estilo.
 
 
