@@ -5,7 +5,12 @@
    * [Introdução](#introducao)
    * [Começando o projeto ](#comecando)
    * [Estrutura inicial ](#estrutura)
-   * [Criando Componentes](#componentes)
+   * [Componentes](#estrutura)
+      - [Button](#button)
+      - [Card](#card)
+   * [Page](#page)
+   * [Layout](#layout)
+
 
 <h2 id="introducao">Introdução</h2>
 Bem-vindo ao repositório POC 5: React com Next.js🎉 Este é um recurso gratuito que ensina o passo a passo para criar um projeto React usando o bootstraping do Next.js. 
