@@ -10,6 +10,7 @@
       - [Card](#card)
    * [Page](#page)
    * [Layout](#layout)
+   * [Autores](#autores)
 
 
 <h2 id="introducao">Introdução</h2>
@@ -394,7 +395,6 @@ Após importar os componentes, o módulo CSS da página e o Head (para manipular
 <img style="border-radius:50%; width:500px; height:430px; display: flex; align-items: center;" src="img.media.jpeg">
 
 
-### Autores:
 
 <h2 id="autores"> Autores </h2>
 
