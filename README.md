@@ -8,6 +8,7 @@
    * [Componentes](#estrutura)
       - [Button](#button)
       - [Card](#card)
+   *[Estilos Modulares](#cssMoudlar)
    * [Page](#page)
    * [Layout](#layout)
    * [Autores](#autores)
@@ -222,10 +223,7 @@ export default function Botao({ palavra, onClick }) {
   background-color: var(--secondary-color);
 }
 ```
-
-### 3. **Estilos Globais (global.css)**
-
-3. Estilos Globais (global.css)
+<h2 id=cssGlobal> Estilos Globais (global.css)</h2>
 
 No arquivo global.css, você define variáveis CSS que podem ser usadas em toda a aplicação Next.js, garantindo consistência visual e facilitando a manutenção. Além disso, ele oferece suporte a temas claros e escuros automaticamente, utilizando a mídia query prefers-color-scheme, o que permite a adaptação automática ao tema preferido do usuário.
 
@@ -259,8 +257,38 @@ body {
   color: var(--text-color);
 }
 ```
+<h2 id="cssMoudlar">CSS Modular (page.module.css)</h2>
 
-### 4. **Layout (layout.js)**
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 16px;
+}
+
+.main {
+  padding: 16px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: rgb(88, 209, 88);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+```
+
+<h2 id=layout>Layout (layout.js)</h2>
 
 Define o layout principal da aplicação, incluindo as fontes personalizadas.
 O children da função principal representa o conteúdo que será renderizado dentro deste layout em cada página específica.
@@ -303,7 +331,7 @@ export default function RootLayout({ children }) {
 }
 ```
 
-### 5. **Página Principal (page.js)**
+<h2 id="page">Página Principal (page.js)</h2>
 
 A página principal da aplicação que utiliza os componentes `Card` e `Button`.
 
@@ -356,36 +384,6 @@ Após importar os componentes, o módulo CSS da página e o Head (para manipular
 * `Componente Botao`: O botão Botao é renderizado com um onClick que dispara um alert com a mensagem 'Aprendi Next.js!' quando clicado. O texto do botão é definido pela propriedade palavra, que aqui recebe "Clique aqui para aprender!".
 
 
-#### Estilos (page.module.css)
-
-```css
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 0 16px;
-}
-
-.main {
-  padding: 16px;
-  text-align: center;
-}
-
-.title {
-  font-size: 2.5rem;
-  color: rgb(88, 209, 88);
-}
-
-.cardContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-  margin-bottom: 24px;
-}
-```
 
 ### Execução na tela:
 
