@@ -218,10 +218,10 @@ body {
   color: var(--text-color);
 }
 ```
-<h2 id="cssModular">CSS Modular </h2>
+<h2 id="cssModular">Estilos Modulares </h2>
 
 
-## '(page.module.css) '
+## `page.module.css`
 ```css
 .container {
   display: flex;
@@ -250,7 +250,7 @@ body {
   margin-bottom: 24px;
 }
 ```
-## `(Button.module.css)`
+## `Button.module.css`
 
 ```css
 .botao {
