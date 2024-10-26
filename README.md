@@ -5,7 +5,7 @@
    * [Introdução](#introducao)
    * [Começando o projeto ](#comecando)
    * [Estrutura inicial ](#estrutura)
-   * [Componentes](#estrutura)
+   * [Componentes](#componentes)
       - [Button](#button)
       - [Card](#card)
    * [Estilos Globais](#cssGlobal)
