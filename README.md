@@ -207,23 +207,7 @@ export default function Botao({ palavra, onClick }) {
 }
 ```
 
-#### Estilos (Button.module.css)
 
-```css
-.botao {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: var(--padding);
-  border: none;
-  border-radius: var(--button-radius);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.botao:hover {
-  background-color: var(--secondary-color);
-}
-```
 <h2 id=cssGlobal> Estilos Globais (global.css)</h2>
 
 No arquivo global.css, você define variáveis CSS que podem ser usadas em toda a aplicação Next.js, garantindo consistência visual e facilitando a manutenção. Além disso, ele oferece suporte a temas claros e escuros automaticamente, utilizando a mídia query prefers-color-scheme, o que permite a adaptação automática ao tema preferido do usuário.
@@ -258,8 +242,10 @@ body {
   color: var(--text-color);
 }
 ```
-<h2 id="cssMoudlar">CSS Modular (page.module.css)</h2>
+<h2 id="cssMoudular">CSS Modular </h2>
 
+
+## '(page.module.css) '
 ```css
 .container {
   display: flex;
@@ -286,6 +272,23 @@ body {
   gap: 16px;
   justify-content: center;
   margin-bottom: 24px;
+}
+```
+## `(Button.module.css)`
+
+```css
+.botao {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: var(--padding);
+  border: none;
+  border-radius: var(--button-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: var(--secondary-color);
 }
 ```
 
