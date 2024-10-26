@@ -158,30 +158,6 @@ Assim, o título dinâmico pode ser passado como propriedade ao componente e ser
 ```
 
 Renderiza os filhos do componente dentro de uma div. Os children podem ser qualquer conteúdo que o desenvolvedor envolva dentro das tags <Cartao>...</Cartao>, como texto, imagens, botões, etc.
-#### Estilos (Card.module.css)
-
-```css
-.cartao {
-  background-color: var(--card-background);
-  padding: var(--padding);
-  border-radius: var(--button-radius);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.14);
-  margin-bottom: 14px;
-  margin-right: 8px;
-  width: 250px;
-}
-
-.cartaoTitle {
-  font-size: 1.6rem;
-  margin-bottom: 8px;
-}
-
-@media screen and (max-width: 900px) {
-  .cartao {
-    width: 100%;
-  }
-}
-```
 
 ### 2. **Button.jsx**
 
@@ -242,7 +218,7 @@ body {
   color: var(--text-color);
 }
 ```
-<h2 id="cssMoudular">CSS Modular </h2>
+<h2 id="cssModular">CSS Modular </h2>
 
 
 ## '(page.module.css) '
